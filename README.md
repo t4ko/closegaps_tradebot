@@ -17,6 +17,11 @@ The low or lack of profitability due to the exchanges responses times being too 
 
 All bots have a simulation mode enabled by default, change the 'simulate' variable to False to use real order placing API calls with real money.
 
+Usage :
+- Each file ending with "_closeGaps.py" is a standalone program, run it with python to use the bot 
+- Edit the values of the api_key and secret_key to make api calls
+- In simulation mode only "get" API calls are made such as getting the books, the balances, the rates, etc
+
 Steps to profitability :
 - Setup the bot on a high bandwidth server near the exchange you want to trade on
 - Tune TCP to make it start faster (congestion control algorithm, initial window size, etc)
